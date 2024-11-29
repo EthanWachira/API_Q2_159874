@@ -16,4 +16,8 @@ python manage.py runserver
 The server will start at http://127.0.0.1:8000/ but to access the Django REST framework go to http://127.0.0.1:8000/api/products/
 # Using the Provided Python Script
 python product_api_client.py
+The script will:
+Add a new product
+Retrieve and print the list of all products
+Delete a product with a specified ID (if modified for this)
 
